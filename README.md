@@ -1,7 +1,7 @@
 # lambda_node_ses_email_forwarder_sendemail
 * The goal for this project is to provide a backend for sending out e-mails (without an attachment) using Amazon SES, running on AWS Lambda + Node.JS
 * This code only supports 50 recipients, a recipient is any to/cc/bcc address.
-* If need attachments checkout this version instead - [lambda sendrawemail ses](https://github.com/gellin/lambda_node_ses_email_forwarder_sendrawemail)
+* If you need attachments checkout this version instead - [lambda sendrawemail ses](https://github.com/gellin/lambda_node_ses_email_forwarder_sendrawemail)
 
 ## Useage 
 Input event data
