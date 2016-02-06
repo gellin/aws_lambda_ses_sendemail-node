@@ -29,7 +29,7 @@ Input event data
   "subject": "λ SES Node Test λλλ",
   "html": "<br><h1>Hello world!!!!!</h1> - from lambda",
   "text": "Hello world!!!!! - from lambda",
-  "from": "YOUR_VERIFIED_SENDER_ADDRESS",
+  "from": "YOUR_VERIFIED_SENDER_ADDRESS"
 }
 ```
 
