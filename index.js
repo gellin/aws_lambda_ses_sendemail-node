@@ -32,9 +32,9 @@ exports.handler = function (event, context) {
     
     var messageOptions = {
         Destination: {
-            BccAddresses: bcc ? bcc : '',
-            ToAddresses: to ? to : '',
-            CcAddresses: cc ? cc : ''
+            BccAddresses: bcc ? bcc : [],
+            ToAddresses: to ? to : [],
+            CcAddresses: cc ? cc : []
         },
         Message: {
             Subject: {
